@@ -1,0 +1,79 @@
+
+
+#retro {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .contenedor-retro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .juego {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .juego img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .juego h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .juego p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 120px; 
+  }
+  
+  
+  .seccion-retro {
+    margin-top: 40px;
+  }
+  
+  .contenedor-consola {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .consola {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .consola img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .consola h3 {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .consola p {
+    font-size: 0.9em;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 120px; 
+  }
+  
