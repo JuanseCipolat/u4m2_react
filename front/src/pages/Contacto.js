@@ -1,11 +1,12 @@
+
 import React from 'react';
 import '../styles/components/pages/Contacto.css';
 
 const Contacto = () => {
   return (
-    <main>
-      <h2>Contacto</h2>
+    <div className="main">
       <section className="seccion-contacto">
+        <h2>Contacto</h2>
         <form action="#" method="post">
           <div className="grupo-formulario">
             <label htmlFor="nombre">Nombre:</label>
@@ -19,10 +20,12 @@ const Contacto = () => {
             <label htmlFor="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
           </div>
-          <button type="submit">Enviar</button>
+          <div className="grupo-formulario">
+            <button type="submit">Enviar</button>
+          </div>
         </form>
       </section>
-    </main>
+    </div>
   );
 }
 
